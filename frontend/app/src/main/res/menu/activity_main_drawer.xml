@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@drawable/ic_cube_outline_black_48dp"
+            android:title="검사하기" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/ic_message_text_outline_black_48dp"
+            android:title="지도" />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:checkable="true"
+                    android:id="@+id/nav_6"
+                    android:icon="@drawable/ic_person"
+                    android:title="사용법" />
+
+                <item
+                    android:checkable="true"
+                    android:id="@+id/nav_7"
+                    android:icon="@drawable/ic_person"
+                    android:title="로그아웃" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
